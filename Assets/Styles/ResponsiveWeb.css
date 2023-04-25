@@ -189,4 +189,8 @@
   .information_principal_about_cards p{
     font-size: 11px;
   }
+  
+    .form_message {
+    width: 300px;
+  }
 }
