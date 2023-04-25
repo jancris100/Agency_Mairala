@@ -133,18 +133,22 @@
 }
 
 @media (max-width: 480px) {
-  .button_hamburguer_menu {
+   .button_hamburguer_menu {
     display: block;
     cursor: pointer;
   }
 
+  .wrap{
+    width: auto;
+  }
+
   header{
     width: 92%;
-    display: block;
+   
   }
 
   header .menu {
-    width: 100%;
+    width: 90%;
     height: 0;
     pointer-events: none;
     overflow: hidden;
@@ -162,6 +166,13 @@
     pointer-events: auto;
   }
 
+  .team_cards{
+    width: 90%;
+  }
+
+  .team_card{
+    margin-left: 75px;
+  }
   .menu ul{
     flex-direction: column;
     display: contents;
@@ -189,13 +200,15 @@
   .information_principal_about_cards p{
     font-size: 11px;
   }
-  
-    .information_principal_about_cards h3{
+  .information_principal_about_cards h3{
     font-size: 13px;
   }
 
-  
-    .form_message {
+  .form_message {
     width: 300px;
+  }
+
+  .team_cards p{
+    font-size: 11px;
   }
 }
