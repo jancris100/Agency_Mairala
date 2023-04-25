@@ -190,6 +190,11 @@
     font-size: 11px;
   }
   
+    .information_principal_about_cards h3{
+    font-size: 13px;
+  }
+
+  
     .form_message {
     width: 300px;
   }
