@@ -1,0 +1,179 @@
+@media (max-width: 1250px) {
+  .wrap {
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  .wrap_form {
+    width: 90%;
+    margin: 0px auto;
+  }
+}
+
+@media (max-width: 952px) {
+  .menu ul li {
+    width: auto;
+    float: left;
+  }
+}
+
+@media (max-width: 928px) {
+  .menu {
+    width: auto;
+    float: left;
+  }
+
+  .tile {
+    width: auto;
+  }
+  .menu ul li {
+    font-size: 13px;
+  }
+
+  header .title {
+    font-size: 12px;
+    margin-top: 21px;
+  }
+}
+
+@media (max-width: 869px) {
+  .form_message {
+    width: 650px;
+  }
+}
+
+@media (max-width: 854px) {
+  .menu ul li {
+    font-size: 11px;
+  }
+
+  header .title {
+    font-size: 11px;
+    margin-top: 21px;
+  }
+
+  .form_message {
+    width: 650px;
+  }
+}
+
+@media (max-width: 850px) {
+  .form_message {
+    width: 650px;
+  }
+}
+
+@media (max-width: 793px) {
+  .menu ul li {
+    font-size: 10px;
+  }
+
+  header .title {
+    font-size: 10px;
+    margin-top: 21px;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+
+  header .title {
+    float: none;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .form_message {
+    width: 600px;
+  }
+  .footer_section {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .form_message {
+    width: 550px;
+  }
+}
+@media (max-width: 686px) {
+  .form_message {
+    width: 500px;
+  }
+
+  .footer_section ul li {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 614px) {
+  .wrap {
+    width: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  body {
+    width: auto;
+    height: auto;
+  }
+  .information_content {
+    width: 100%;
+  }
+
+  .wrap {
+    width: auto;
+  }
+
+  .form_message {
+    width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .button_hamburguer_menu {
+    display: block;
+    cursor: pointer;
+  }
+
+  header .menu {
+    width: 100%;
+    height: 0;
+    pointer-events: none;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .menu.activo{
+    /* display: block; */
+    height:50vh;
+    pointer-events: auto;
+  }
+
+  .menu ul{
+    flex-direction: column;
+    display: contents;
+  }
+  .menu ul li{
+    margin: 1rem 0;
+  }
+
+  .information_principal_blog_textBlog{
+    display: grid;
+  }
+
+  .information_principal_blog_textBlog p{
+    margin-right: 30px;
+  }
+
+  .footer_order{
+    display: contents;
+  }
+}
